@@ -1,0 +1,15 @@
+/* On screens that are wider than 769px, set the background color to red
+/* ----------- Tablets larger than 768px wide ----------- */
+@media screen and (min-width: 769px) {
+	body {
+    background: red;
+  }
+}
+
+/* On screens that are wider than 1200px, set the background color to purple
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media screen and (min-width: 1201px) {
+  body {
+    background: purple;
+  }
+}
